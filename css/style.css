@@ -6,11 +6,13 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
-  background-size: cover;
+  background: rgb(2,0,36);
+background: linear-gradient(210deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   background-attachment: fixed;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 100%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 125%;
+  font-style: italic;
+  color: rgba(9,9,121,1);
 }
 
 .wrapper {
@@ -56,12 +58,13 @@ p {
 }
 
 a {
-  color: black;
+  color: rgba(9,9,121,1);
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+  color: blue;
 }
 
 @media only screen and (max-width: 1042px) {
